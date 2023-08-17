@@ -363,7 +363,7 @@ html, body{
 		min-height: unset;
 	}
 	.header__wrapper{
-		padding: 150px 15px;
+		padding: 180px 15px;
 	}
 	.header__title{
 		font-size: 30px;
@@ -372,7 +372,7 @@ html, body{
 		font-size: 40px;
 	}
 	.section{
-		padding: 150px 0;
+		padding: 180px 0 40px 0;
 	}
 	.title-1{
 		font-size: 40px;
@@ -409,3 +409,19 @@ html, body{
 	}
 }
 
+
+/* ----------------------corections---------------------- */
+@media(max-width: 320px){
+	.section{
+		padding: 250px 0 50px 0;
+	}
+	.header__wrapper{
+		padding: 180px 15px;
+	}
+}
+
+@media(min-width: 480px) {
+	.section{
+		padding: 150px 0 70px 0;
+	}
+}
