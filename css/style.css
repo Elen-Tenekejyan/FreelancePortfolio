@@ -362,6 +362,8 @@ html, body{
 	.header{
 		min-height: unset;
 	}
+	.header__wrapper{
+		padding: 150px 15px;
 	.header__title{
 		font-size: 30px;
 	}
@@ -369,7 +371,7 @@ html, body{
 		font-size: 40px;
 	}
 	.section{
-		padding: 40px 0;
+		padding: 150px 0;
 	}
 	.title-1{
 		font-size: 40px;
